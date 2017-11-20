@@ -71,6 +71,7 @@ class: middle, center
 	- One process per controller -> Worker processes -> Worker processes with worker threads
 		- Currently one thread per access point or client
 - SQL(MYSQL/MariaDB) -> NOSQL(MongoDB)
+	- Better for storing a wide range of devices with varying attributes
 
 
 ---
@@ -119,7 +120,7 @@ class: middle, center
 ---
 # Lessons learned
 - Presentation of data to end users is hard
-	- 
+- Resiliency is key, controllers fail, stop responding and sometimes serves you garbage
 
 ---
 # Quirks
